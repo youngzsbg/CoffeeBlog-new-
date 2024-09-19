@@ -45,7 +45,7 @@ h2{
 .btn-more{  
     background-color: rgb(145, 86, 31);
     color: white;
-    }
+        }
 /*header*/
 .site-header{
     background-image: url(img/banner.jpg);
@@ -88,6 +88,7 @@ h2{
 .blog-item{
     border-bottom: 1px solid gray;
     margin-bottom: 20px;
+    
 }
 /*courses*/
 
@@ -99,6 +100,7 @@ h2{
 .form{
 display: flex;
 flex-direction: column;
+padding-bottom: 5%;
 }
 .img-container{
     
@@ -133,4 +135,30 @@ flex-direction: column;
 }
 .text{
     margin-left: 22%;
+    padding-bottom: 5%;
+}
+
+/*courses page*/
+.all-courses{
+    display: grid;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+.bean{
+    padding-bottom: 5%;
+  }
+  
+.design{
+    padding-bottom: 5%;
+}
+.history{
+    padding-bottom: 5%;
+}
+
+.courses-color{
+    background-color: chocolate;
+}
+.pic-bean{
+    
 }
